@@ -1,8 +1,0 @@
-[build]
-buildCommand = "echo 'Pre-built bundle — no build step needed'"
-
-[deploy]
-startCommand = "node index.cjs"
-restartPolicyType = "on_failure"
-healthcheckPath = "/api/health"
-healthcheckTimeout = 30
