@@ -1,3 +1,0 @@
-[deploy]
-startCommand = "node index.cjs"
-restartPolicyType = "on_failure"
